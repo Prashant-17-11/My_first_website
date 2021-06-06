@@ -1,5 +1,8 @@
 # My_first_website
-This is my first website
+This is my first website.
+
+View the page on this link:
+https://prashant-17-11.github.io/my_first_website_template/
 
 This is my first attempt at making a responsive webpage.
 You can follow this link to see the original template which I have tried to repilcate with my skills.

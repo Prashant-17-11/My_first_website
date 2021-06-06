@@ -155,7 +155,7 @@ body {
 }
 .banner {
     min-height: 42rem;
-    background-image: url("/img/banner.jpg");
+    background-image: url("../img/banner.jpg");
     background-size: cover;
 }
 .banner h1 {
