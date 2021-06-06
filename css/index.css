@@ -1,0 +1,239 @@
+body {
+    background-color: rgb(250, 242, 249);
+}
+.logo {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 7%;
+    min-width: 15%;
+    line-height: 0.8;
+    font-weight: bold;
+}
+.logo .card {
+    background-color: rgb(250,242,249);
+}
+.logo .card .card-title {
+    font-size: xx-large;
+    font-family: "Limelight", "cursive";
+    
+}
+.intro {
+    padding-left: 8%;
+    padding-top: 4%;
+    min-height: 27rem;
+}
+@media (min-width:1024px) {
+    .intro {
+    padding-top: 11rem;
+    min-height: 41rem;
+    }   
+}
+.intro h2{
+    color: rgb(150,150,150);
+    font-size: 3rem;
+    font-family:"Limelight", "cursive";
+    text-shadow: 1px 1px 1px #000000;
+}
+.intro h1{
+    font-family: 'Lobster', 'cursive';
+    font-size: 5rem;
+    text-shadow: 2px 2px 1px #aaaaaa;
+    
+}
+.intro p {
+    font-size: 1.5rem;
+}
+.intro-pics .row1 img {
+    margin-bottom: 4%;
+    margin-top: 1%;
+    margin-left: 6%;
+    width: 90%;
+    height: 60%;
+}
+@media (min-width:1024px) {
+    .intro-pics .row1 img {
+        width: 60%;
+        height: 60%;
+    }   
+}
+.intro-pics .row2 img {
+    margin-bottom: 4%;
+    margin-left: 6%;
+    width: 90%;
+    height: 60%;
+}
+@media (min-width:1024px) {
+    .intro-pics .row2 img {
+        width: 40%;
+        height: 14rem;
+    }   
+}
+@media (min-width:1440px) {
+    .intro-pics .row2 img {
+        width: 40%;
+        height: 19rem;
+    }   
+}
+.about-us {
+    background-color: rgb(227, 220, 210);
+}
+.about-us-img {
+    min-height: 41rem;
+}
+.about-us-img img {
+    margin-top: 5rem;
+    margin-left: 10%;
+    width: 80%;
+    height: 31rem;
+}
+@media (min-width:768px)
+{
+    .about-us-img img {
+        margin-left: 20%;
+    }
+}
+.about-us-txt {
+    padding-left: 8%;
+    padding-right: 12%;
+    padding-top: 2rem;
+    min-height: 32rem;
+}
+@media (min-width:768px) {
+    .about-us-txt {
+    padding-top: 11rem;
+    min-height: 41rem;
+    }   
+}
+.about-us-txt h2 {
+    font-size: 3rem;
+    text-shadow: 2px 1px 1px #000000;
+    font-family: "Limelight", "cursive";
+    margin: none;
+}
+.about-us-txt h1 {
+    font-size: 6rem;
+    text-shadow: 2px 2px 1px #aaaaaa;
+    font-family: 'Lobster', 'cursive' ;
+    margin: none;
+}
+.about-us-txt p {
+    font-size: 1rem;
+}
+.content {
+    background-color: #332f29;
+    min-height: 62rem;
+}
+.content .card {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    min-height: 15rem;
+    background-color: #332f29;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.our-delicacies {
+    min-height:75rem;
+    margin-bottom: 3rem;
+}
+.our-delicacies .heading {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.our-delicacies .heading h2 {
+    font-size: 3rem;
+    text-shadow: 2px 1px 1px #000000;
+    font-family:"Limelight", "cursive";
+}
+.our-delicacies .heading h1{
+    font-family: 'Lobster', 'cursive';
+    text-shadow: 2px 2px 1px #aaaaaa;
+    font-size: 5rem;
+}
+.our-delicacies .gallery .card {
+    margin: 1rem;
+}
+.banner {
+    min-height: 42rem;
+    background-image: url("/img/banner.jpg");
+    background-size: cover;
+}
+.banner h1 {
+    margin-left: 1rem;
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 2px 2px 1px #000000;
+    color: rgb(250, 163, 32);
+    font-family: 'Lobster' , 'cursive';
+}
+@media (min-width:768px) {
+    .banner h1 {
+        padding-top: 13rem;
+        /* margin-left: 2rem; */
+    }
+}
+@media (min-width:1240px) {
+    .banner h1 {
+        padding-top: 15rem;
+        /* margin-left: 15rem; */
+    }
+}
+@media (min-width:1440px) {
+    .banner h1 {
+        padding-top: 17rem;
+        /* margin-left: 7rem; */
+    }
+}
+.contact-us {
+    min-height: 42rem;
+}
+.contact-us .contact-us-txt {
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+@media (min-width:1240 px) {
+    .contact-us .contact-us-txt {
+        margin-top: 9rem;
+        margin-left: 4rem;
+    }    
+}
+.contact-us .contact-us-txt h2 {
+    font-size: 3rem;
+    text-shadow: 2px 1px 1px #000000;
+    font-family: 'Limelight','cursive';
+}
+.contact-us .contact-us-txt h1 {
+    font-size: 6rem;
+    text-shadow: 2px 2px 1px #aaaaaa;
+    font-family: 'Lobster', 'cursive';
+}
+@media (min-width:1240px) {
+    .contact-us .contact-us-txt h1 {
+        padding-left: 2rem;
+    }
+}
+.contact-us .contact-us-txt address {
+    font-size: 1.25rem;
+}
+.contact-us .contact-us-img {
+    margin-top: 2rem;
+}
+.contact-us .contact-us-img .card {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 0.75rem;
+}
+@media (min-width:760px) {
+    .contact-us .contact-us-img .card {
+        width: 90%;
+        margin-left: 1.75rem;
+    }
+}
+@media (min-width:1240px) {
+    .contact-us .contact-us-img .card {
+        margin-top: 3rem;
+        margin-left: 7rem;
+    }
+}
